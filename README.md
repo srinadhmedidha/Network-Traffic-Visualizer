@@ -51,18 +51,18 @@ All thresholds, time windows, signatures, and the IP blocklist are configurable 
 ## Screenshots
 
 ### Login Page
-![Login page](screenshots/login.png)
+![Login page](Screenshots/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ### Live Traffic Analysis
 Live packet feed, threat alerts panel, capture controls, and the live protocol distribution graph.
 
-![Live output](screenshots/live-output.png)
+![Live output](Screenshots/live-output.png)
 
 ### Exported CSV Output
-![Exported CSV](screenshots/exported-output.png)
+![Exported CSV](Screenshots/exported-output.png)
 
 ## Project Structure
 
@@ -72,7 +72,7 @@ Live packet feed, threat alerts panel, capture controls, and the live protocol d
 ├── visualizer.py    # GUI (login, dashboard, live traffic page), packet capture, graphing, CSV export
 ├── detector.py      # Rule-based threat detection engine
 ├── README.md
-└── screenshots/     # Images used in this README
+└── Screenshots/     # Images used in this README
 ```
 
 ## Requirements
